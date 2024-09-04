@@ -1,0 +1,17 @@
+{
+	"apps": [
+		{
+			"name": "trading-loop",
+			"watch": true,
+			"script": "node src/solTrader/trading_loop.js",
+			"ignore_watch": ["node_modules", "log"],
+			"watch_options": {
+				"followSymlinks": false
+			},
+			"env": {
+				"NODE_ENV": "production"
+			},
+			"log_date_format": "YYYY-MM-DD HH:mm Z"
+		}
+	]
+}

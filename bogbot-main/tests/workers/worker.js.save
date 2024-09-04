@@ -1,0 +1,5 @@
+//worker
+
+const { parentPort, workerData } = require('worker_threads');
+
+parentPort.postMessage('test');
