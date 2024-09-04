@@ -1,5 +1,0 @@
-git add .
-git commit -m .
-GIT_SSH_COMMAND="ssh -i /root/.ssh/id_bogbot" git pull
-GIT_SSH_COMMAND="ssh -i /root/.ssh/id_bogbot" git push
-
